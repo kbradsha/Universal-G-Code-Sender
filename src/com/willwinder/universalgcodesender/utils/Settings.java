@@ -18,7 +18,7 @@ public class Settings {
     private boolean overrideSpeedSelected = false;
     private double overrideSpeedValue = 60;
     private boolean singleStepMode = false;
-    private int maxCommandLength = 50;
+    private int maxCommandLength = 70;
     private int truncateDecimalLength = 4;
     private boolean removeAllWhitespace = true;
     private boolean statusUpdatesEnabled = true;

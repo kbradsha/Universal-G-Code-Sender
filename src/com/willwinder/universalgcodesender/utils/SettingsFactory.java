@@ -74,7 +74,7 @@ public class SettingsFactory {
                     out.setOverrideSpeedValue(Double.valueOf(properties.getProperty("overrideSpeed.value", "60")));
                     out.setFirmwareVersion(properties.getProperty("firmwareVersion", "GRBL"));
                     out.setSingleStepMode(Boolean.valueOf(properties.getProperty("singleStepMode", "false")));
-                    out.setMaxCommandLength(Integer.valueOf(properties.getProperty("maxCommandLength", "50")));
+                    out.setMaxCommandLength(Integer.valueOf(properties.getProperty("maxCommandLength", "70")));
                     out.setTruncateDecimalLength(Integer.valueOf(properties.getProperty("truncateDecimalLength", "4")));
                     out.setRemoveAllWhitespace(Boolean.valueOf(properties.getProperty("removeAllWhitespace", "true")));
                     out.setStatusUpdatesEnabled(Boolean.valueOf(properties.getProperty("statusUpdatesEnabled", "true")));

@@ -30,7 +30,7 @@ import com.willwinder.universalgcodesender.types.GcodeCommand;
  */
 public class GcodeCommandCreator {
     protected int numCommands = 0;
-    protected int maxCommandLength = 50;
+    protected int maxCommandLength = 70;
     
     public GcodeCommandCreator() {
     }
